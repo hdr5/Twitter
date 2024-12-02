@@ -1,5 +1,12 @@
 import { Component, Input } from '@angular/core';
 
+
+interface Message {
+  name: string;
+  message: string;
+  img: string;
+  date: Date;
+}
 @Component({
   selector: 'app-tweet',
   templateUrl: './tweet.component.html',
@@ -7,6 +14,6 @@ import { Component, Input } from '@angular/core';
 })
 export class TweetComponent {
 
-  @Input() message:any;
+  @Input() message: Message = { name: '', message: '', img: '', date: new Date() };
 
 }

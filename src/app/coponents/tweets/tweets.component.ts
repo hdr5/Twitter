@@ -7,27 +7,33 @@ import { TweetService } from 'src/app/services/tweet.service';
   styleUrls: ['./tweets.component.css']
 })
 export class TweetsComponent {
+
   public list = [
     {
       name: 'Hw1',
-      message: 'we support israel',
+      message: 'We support israel ❤️',
+      img:'assets/backiee-14485.jpg',
       date: new Date(),
     },
     {
-      name: 'Moriya',
+      name: 'Gili',
       message: 'Hi jhjbnm jkjjvk jkni ,m uhuig gfyu kjbn b dyhjb uyhjkjjkmnnds jj,;kn jhhjcygfop;l., wjasjokm0qwp;. kopl,mekjaxol,.[eo;x jiujbewdygsikmewvguryuscioxk',
+      img: 'assets/backiee-14485.jpg',
       date: new Date(),
     },
-    {
-      name: 'Moriya',
+      {
+      name: 'Alon',
       message: 'Hi jhjbnm jkjjvk jkni ,m uhuig gfyu kjbn b dyhjb uyhjkjjkmnnds jj,;kn jhhjcygfop;l., wjasjokm0qwp;. kopl,mekjaxol,.[eo;x jiujbewdygsikmewvguryuscioxk',
+      img: 'assets/backiee-14485.jpg',
       date: new Date(),
     },
-    {
-      name: 'Hadar',
-      message: 'בעזרת הקב"ה כל החיילים והחטופים יחזרו בריאים ושלמים בגוף ובנפש',
-      date: new Date(2021,2,23),
+      {
+      name: 'Mor',
+      message: 'Hi gfyu kjbn b dyhjb uyhjkjjkmnnds jj,;kn jhhjcygfop;l., wjasjokm0qwp;. kopl,mekjaxol,.[eo;x jiujbewdygsikmewvguryuscioxk',
+      img: 'assets/backiee-14485.jpg',
+      date: new Date(2024, 4, 3),
     },
+ 
   ]
 
   @Input() user: any;

@@ -12,10 +12,10 @@ describe('TweetComponent', () => {
     });
     fixture = TestBed.createComponent(TweetComponent);
     component = fixture.componentInstance;
-    fixture.detectChanges();
+    fixture.detectChanges();// Triggers change detection
   });
 
   it('should create', () => {
-    expect(component).toBeTruthy();
+    expect(component).toBeTruthy(); // Verifies the component was created successfully
   });
 });

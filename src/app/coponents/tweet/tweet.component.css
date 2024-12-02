@@ -1,24 +1,35 @@
 .card {
-    max-width: 400px;
-    margin-bottom: 8px;
-    /* background-color: black; */
-  }
-.header-image {
-background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-background-size: cover;
+  max-width: 400px;
+  margin-bottom: 8px;
+  /* background-color: black; */
 }
-span{
+.message-image img {
+  width: 100%; /* Makes image responsive */
+  height: auto;
+  padding-top: 10px;
+  object-fit: cover; /* Ensures image doesn't get stretched or squished */
+  border-radius: 8px; /* Optional, for rounded corners */
+}
+.header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+span {
   color: grey;
 }
-.icons{
+
+.icons {
   float: left;
   padding-inline: 20px;
 }
-.icons div{
+
+.icons div {
   float: left;
   padding-inline: 10px;
 
 }
+
 .spacer {
-    flex: 1 1 auto;
+  flex: 1 1 auto;
 }
